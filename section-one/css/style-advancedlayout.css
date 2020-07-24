@@ -1,0 +1,396 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.space{
+    padding: 6rem 2rem;
+}
+
+.header{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.363), rgba(0, 0, 0, 0.39)),url(../images/sanfrancisco.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+} 
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.item{
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 2.5rem;
+    transition: all .5s;
+    padding: .5rem;
+}
+
+.item:hover{
+    border: 1px solid #fff;
+}
+
+.header-box{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(0, 0, 0, 0.185);
+    width: 40%;
+    text-align: center;
+    padding: 1rem 1.3rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.header-title{
+    font-size: 3rem;
+    color: white;
+}
+
+.header-desc{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.header-link{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.397), rgba(255, 0, 0, 0.507));
+    border-radius: 100px;
+    padding: .7rem 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.header-link:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.986), rgba(255, 0, 0, 0.671));
+}
+
+
+.title{
+    font-size: 1.8rem;
+    color: rgb(90, 25, 25);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+/* The main starts here */
+
+.services{
+    padding: 8rem 3rem;
+    background-color: rgb(90, 22, 22);
+}
+
+.services-content{
+    display: flex;
+    justify-content: center;
+}
+
+.service{
+    margin: 0 1.3rem;
+    padding: 2rem 1rem;
+    background-color: rgba(255, 255, 255, 0.493);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+    box-shadow: 5px 5px 8px #000;
+}
+
+.service__title{
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+}
+
+.service__desc{
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+/* The courses section starts here */
+
+.courses-title{
+    border-bottom: 3px solid #000;
+    margin-bottom: 2rem;
+}
+.courses{
+    padding: 4rem 6rem;
+}
+
+.courses-content{
+    display: flex;
+}
+
+.course{
+    width: 20%;
+    box-shadow: 2px 2px 4px rgba(85, 85, 85, 0.384);
+    margin: 0 .5rem;
+    transition: all .5s;
+}
+
+.course:hover{
+    box-shadow: 7px 7px 18px rgba(85, 85, 85);
+}
+
+.course__img--content{
+    background-color: #000;
+}
+.course__img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: all .3s;
+}
+
+.course:hover .course__img{
+    opacity: .3;
+}
+
+.course__text{
+    padding: .8rem 1rem;
+}
+
+.course__title{
+    margin-top: 0;
+    font-size: 1rem;
+    color: #222;
+}
+
+.course__author{
+    font-size: .9rem;
+    color: #555;
+}
+
+.course__price{
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* The about starts here */
+
+.about{
+    padding: 8rem 4rem;
+    background-color: #555;
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+}
+
+.about__text{
+    width: 50%;
+    box-shadow: 6px 6px 8px rgba(10, 10, 10, 0.582);
+    padding: 0 1.3rem;
+    z-index: 1000;
+    background-color: white;
+}
+
+.about__title{
+    font-size: 2rem;
+    color: #222;
+
+}
+
+.about__desc{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: gray;
+}
+
+.about__img--content{
+    width: 50%;
+    margin-left: -5rem;
+    z-index: 10;
+    transform: rotate(10deg);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.473);
+}
+
+.about__img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* The users section starts here */
+
+.users{
+    padding: 8rem 4rem;
+    background-color: rgb(219, 219, 219);
+}
+
+.section-title{
+    font-size: 2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 6rem;
+}
+
+.users-content{
+    display: flex;
+    justify-content: center;
+}
+
+
+.user{
+    text-align: center;
+    width: 30%;
+    box-shadow: 2px 2px 4px rgb(24, 23, 23);
+    background-color: #fff;
+    margin: 0 1.3rem;
+}
+
+.user__img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -3rem;
+    box-shadow: 2px 2px 4px rgb(24, 23, 23);
+}
+
+.user__tile{
+    font-size: 1.5rem;
+    color: #222;
+}
+
+.user__job{
+    font-size: 1.1rem;
+}
+
+.user__link{
+    padding: .7rem 1rem;
+    color: #999;
+    text-decoration: none;
+    border: 1px solid #999;
+    display: inline-block;
+    margin-bottom: 1.3rem;
+    transition: all .5s;
+}
+
+.user__link:hover{
+    background-color: #000;
+}
+
+/* The main ends here */
+
+
+.footer{
+    background-color: rgb(175, 175, 175);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer-text{
+    font-size: 1.3rem;
+}
+
+
+/* The media queries start here */
+
+@media only screen and (max-width: 1000px){
+    .services-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .service{
+        width: 60%;
+    }
+
+}
+
+
+@media only screen and (max-width: 850px){
+    .users-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .user{
+        width: 50%;
+        margin: 3.5rem 0;
+    }
+
+    
+    .user__img{
+        width: 4rem;
+        height: 4rem;
+        margin-top: -2rem;
+    }
+
+    .courses-content{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course{
+        width: 50% !important;
+    }
+
+}
+
+@media only screen and (max-width: 1100px){
+
+    .about-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__text{
+        width: 80%;
+    }
+
+    .about__img--content{
+        width: 80%;
+        margin-left: 0;
+        transform: rotate(0);
+        margin-top: 3rem;
+    }
+    
+    .about__img{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .courses-content{
+        flex-wrap: wrap;
+    }
+    
+    .course{
+        width: 30%;
+        margin: 1rem .5rem;
+    }
+
+
+}

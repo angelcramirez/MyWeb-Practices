@@ -1,0 +1,79 @@
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(245, 160, 1, 0.753)), url(/images/shopping.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+
+    &__box{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #777;
+        padding: 1rem 0;
+    }
+    
+    &__icons{
+        i{
+            color: orange;
+            font-size: 2rem;
+            margin-right: 1rem;
+            font-weight: bold;
+        }
+    }
+    
+    &__form{
+        input{
+            width: 100%;
+            border: none;
+            border-radius: 10px;
+            padding: .8rem 2rem;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+    
+    &__buttons{
+        a{
+            text-decoration: none;
+            color: orange;
+            font-weight: bold;
+            font-size: .8rem;
+            margin-right: .7rem;
+            text-transform: uppercase;
+            font-family: Verdana, Arial, sans-serif;
+        }
+    
+    }
+
+    &__hero-content{
+        width: 50%;
+        text-align: center;
+        padding: 1rem 0;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    &__title{
+        font-weight: bold;
+        color: white;
+        letter-spacing: .3rem;
+        font-size: 3rem;
+    }
+
+    &__description{
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 2.2rem;
+    }
+
+    &__link{
+        text-decoration: none;
+        background: #fff;
+        color: #000;
+        padding: 1rem 1.2rem;
+        border-radius: 4px;
+        display: inline-block;
+    }
+}

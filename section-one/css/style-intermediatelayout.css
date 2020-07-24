@@ -1,0 +1,278 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.space{
+    padding: 6rem 2rem;
+}
+
+.header{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.363), rgba(0, 0, 0, 0.39)),url(../images/sanfrancisco.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+} 
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+
+.logo{
+    width: 4rem;
+    height: 4rem;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.item{
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 2.5rem;
+    transition: all .5s;
+    padding: .5rem;
+}
+
+.item:hover{
+    border: 1px solid #fff;
+}
+
+.header-box{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(0, 0, 0, 0.185);
+    width: 40%;
+    text-align: center;
+    padding: 1rem 1.3rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.header-title{
+    font-size: 3rem;
+    color: white;
+}
+
+.header-desc{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.header-link{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.397), rgba(255, 0, 0, 0.507));
+    border-radius: 100px;
+    padding: .7rem 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.header-link:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.986), rgba(255, 0, 0, 0.671));
+}
+
+
+.foods-left{
+    width: 70%;
+    display: flex;
+}
+
+.foods-left > div{
+    width: 30%;
+    background-color: rgb(221, 221, 221);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.562);
+    margin: 0 1.3rem;
+    padding: 0 1rem;
+
+}
+
+.foods-right{
+    width: 30%;
+}
+
+.foods-right div{
+    box-sizing: border-box;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.411);
+    padding: 1rem 2rem;
+}
+
+.food__title{
+    text-align: center;
+    font-size: 2rem;
+    color: #999;
+}
+.food__item{
+    font-size: 1.3rem;
+    margin-bottom: .7rem;
+
+}
+
+.about{
+    padding: 3rem 4rem;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.skill-right{
+    width: 45%;
+}
+.skill-left{
+    width: 55%;
+    margin-right: 5rem ;
+    text-align: center;
+}
+
+.skill-img{
+    width: 50%;
+}
+
+.skill-title{
+    font-size: 2rem;
+    margin: 0;
+    color: grey;
+}
+
+.skill-text{
+    line-height: 1.6;
+}
+
+
+.about-content{
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    width: 50%;
+    box-shadow: 3px 3px 6px rgba(128, 128, 128, 0.479);
+    border-radius: 5px;
+}
+
+.text{
+    line-height: 1.5;
+    font-size: 1.3rem;
+    color: grey;
+}
+
+.services{
+    padding: 4rem 5rem;
+}
+
+
+.service{
+    padding: 0 1.4rem;
+    text-align: center;
+    margin: 0 3rem;
+    width: 35%;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.694);
+    transition: all .5s;
+
+}
+
+.service:hover{
+    background-color: #000;
+    color: white;
+}
+.service__title{
+    font-size: 1.6rem;
+    color: grey;
+}
+
+.service__text{
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.projects{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.521)),url(../images/sanfrancisco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 4rem 3rem;
+}
+
+
+.title{
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: #999;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.project{
+    background-color: rgba(255, 255, 255, 0.733);
+    width: 30%;
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.692);
+    text-align: center;
+}
+
+.project__desc{
+    height: 1.4;
+    font-size: 1.1rem;
+    color: grey;
+
+}
+
+.users{
+    padding: 6rem 4rem;
+}
+
+.user{
+    width: 25%;
+    padding: 1rem 1.2rem;
+    margin: 0 1.4rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.37);
+    text-align: center;
+}
+
+.user__desc{
+    margin-bottom: 1rem;
+}
+
+.user__link{
+    color: grey;
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: .6rem 1rem;
+    display: inline-block;
+    transition: all .5s;
+
+}
+
+.user__link:hover{
+    background-color: orange;
+    color: white;
+}
+
+.footer{
+    background-color: rgb(175, 175, 175);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer-text{
+    font-size: 1.3rem;
+}

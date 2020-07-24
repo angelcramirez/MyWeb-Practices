@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    background-color: #fff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.582);
+    padding: .6rem 0;
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    &__list{
+        display: flex;
+        list-style: none;
+    }
+
+    &__item{
+        margin: 0 1.2rem;
+    }
+
+    &__link{
+        font-family: Verdana, Arial, sans-serif;
+        text-decoration: none;
+        color: orange;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: .8rem;
+    }
+}
+
+.logo{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
