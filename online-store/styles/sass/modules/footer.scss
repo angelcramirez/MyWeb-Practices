@@ -1,0 +1,23 @@
+.footer {
+    padding: 4rem;
+    background-color: olivedrab;
+    border-top: 1px solid rgba(0, 0, 0, 0.418);
+    display: flex;
+    justify-content: space-around;
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        margin: .5rem 0;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+

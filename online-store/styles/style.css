@@ -316,3 +316,17 @@ body {
     padding: .7rem 1rem;
     width: 10rem;
     margin: 0 auto; }
+
+.footer {
+  padding: 4rem;
+  background-color: olivedrab;
+  border-top: 1px solid rgba(0, 0, 0, 0.418);
+  display: flex;
+  justify-content: space-around; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    margin: .5rem 0; }
+  .footer__link {
+    text-decoration: none;
+    color: white; }
